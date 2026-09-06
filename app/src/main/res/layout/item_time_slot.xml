@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp"
+    android:background="@drawable/bg_card">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etSlotTime"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="08:00"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_secondary"
+        android:inputType="time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="→"
+        android:textColor="@color/text_secondary"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/tvSlotAudio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/no_audio_selected"
+        android:textColor="@color/text_secondary"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/btnSelectAudio"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_audio"
+        android:padding="4dp" />
+
+    <ImageView
+        android:id="@+id/btnRemoveSlot"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_close"
+        android:padding="6dp" />
+
+</LinearLayout>
