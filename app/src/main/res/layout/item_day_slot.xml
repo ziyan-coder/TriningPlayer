@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/tvSlotTimeLabel"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="08:00"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@color/text_secondary"
+        android:alpha="0.2" />
+
+    <TextView
+        android:id="@+id/tvSlotAudioName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="@string/no_audio_selected"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:gravity="end"
+        android:paddingEnd="8dp" />
+
+    <ImageView
+        android:id="@+id/btnSelectSlotAudio"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/ic_audio"
+        android:padding="4dp" />
+
+</LinearLayout>
