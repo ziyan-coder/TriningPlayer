@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">训练计划播放器</string>
+    <string name="no_running_plan">暂无运行中的计划</string>
+    <string name="please_start_from_template">请从模板库启动</string>
+    <string name="running">运行中</string>
+    <string name="paused">已暂停</string>
+    <string name="completed">已完成</string>
+    <string name="terminated">已终止</string>
+    <string name="pause">暂停</string>
+    <string name="resume">恢复</string>
+    <string name="terminate">终止</string>
+    <string name="waiting_for_next">等待下个时段</string>
+    <string name="today_done">今日已全部完成</string>
+    <string name="next">下一个</string>
+    <string name="currently_playing">正在播放</string>
+    <string name="just_played">刚刚播放</string>
+    <string name="day">第%d天</string>
+    <string name="of_total">共%d天</string>
+    <string name="next_play_at">下次播放</string>
+    <string name="confirm_terminate">确定要终止当前计划吗？此操作不可撤销。</string>
+    <string name="template_library">模板库</string>
+    <string name="current_plan">当前运行</string>
+    <string name="history">历史记录</string>
+    <string name="create_template">创建模板</string>
+    <string name="template_name">模板名称</string>
+    <string name="total_days">总天数</string>
+    <string name="start_plan">启动计划</string>
+    <string name="select_audio">选择音频</string>
+    <string name="no_audio_selected">未选择音频</string>
+    <string name="choose_start_date">选择起始日期</string>
+    <string name="notification_channel_name">训练播放</string>
+    <string name="notification_channel_desc">定时播放通知</string>
+    <string name="notification_title">%s</string>
+    <string name="notification_playing">正在播放：%s</string>
+    <string name="notification_just_played">刚刚播放：%s</string>
+    <string name="notification_next">下一个：%s</string>
+    <string name="notification_paused">⏸ 已暂停</string>
+    <string name="notification_waiting">等待下个时段</string>
+    <string name="notification_today_done">✅ 今日已全部完成</string>
+</resources>
