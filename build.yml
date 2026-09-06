@@ -1,0 +1,5 @@
+    - name: Generate gradle wrapper
+      run: |
+        if [ ! -f gradle/wrapper/gradle-wrapper.jar ]; then
+          curl -L -o gradle/wrapper/gradle-wrapper.jar https://raw.githubusercontent.com/gradle/gradle/v8.6.0/gradle/wrapper/gradle-wrapper.jar
+        fi
